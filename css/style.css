@@ -1,4 +1,75 @@
 /* Базовые стили */
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --link-text-color: #2196f3;
+}
+
 body {
+  background-color: #ffffff;
+  color: var(--main-text-color);
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* All pages styles */
+.header .logo {
+  color: var(--link-text-color);
+}
+.logo-header {
+  color: #000000;
+}
+.footer .logo {
+  color: var(--link-text-color);
+}
+.logo-footer {
+  color: #ffffff;
+}
+
+.title-text {
+  color: var(--title-text-color);
+}
+
+.nav-list-link {
+  color: var(--title-text-color);
+}
+.header-link {
+  color: #757575;
+}
+.header-link:hover,
+.header-link:focus,
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--link-text-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+.address {
+  color: #ffffff;
+}
+.address-list a {
+  color: rgb(255, 255, 255, 0.6);
+}
+
+/* Main page styles */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.button-hero {
+  background-color: var(--link-text-color);
+  color: #ffffff;
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+.our-team li {
   background-color: #ffffff;
 }
