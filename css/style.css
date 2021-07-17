@@ -73,3 +73,14 @@ ul {
 .our-team li {
   background-color: #ffffff;
 }
+
+/* Portfolio */
+.portfolio-nav-buttons {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+.portfolio-nav-buttons:hover,
+.portfolio-nav-buttons:focus {
+  background-color: var(--link-text-color);
+  color: #ffffff;
+}
